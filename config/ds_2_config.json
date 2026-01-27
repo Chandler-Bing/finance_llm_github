@@ -1,0 +1,41 @@
+{
+    "optimizer": {
+        "type": "AdamW",
+        "params": {
+            "lr": "auto",
+            "weight_decay": "auto",
+            "torch_adam": true,
+            "adam_w_mode": true
+        }
+    },
+    "bf16": {
+    	"enabled": true
+    },
+    "zero_optimization": {
+        "stage": 2,
+        "allgather_partitions": true,
+        "allgather_bucket_size": 5e8,
+        "reduce_scatter": true,
+        "reduce_bucket_size": 5e8,
+        "overlap_comm": true,
+        "contiguous_gradients": true,
+        "round_robin_gradients": true
+    },
+    "flops_profiler": {
+        "enabled": true,
+        "profile_step": 100,
+        "module_depth": -1,
+        "top_modules": 1,
+        "detailed": true,
+        "output_file": null
+    },
+    "tensorboard": {
+        "enabled": true
+    },
+    "gradient_accumulation_steps": "auto",
+    "gradient_clipping": "auto",
+    "steps_per_print": 1000,
+    "train_batch_size": "auto",
+    "train_micro_batch_size_per_gpu": "auto",
+    "wall_clock_breakdown": false
+}
