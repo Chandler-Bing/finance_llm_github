@@ -1,0 +1,97 @@
+{
+	"workbench.iconTheme": "vscode-great-icons",
+	"terminal.integrated.defaultLocation": "editor",
+	"editor.fontLigatures": false,
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+	"terminal.integrated.tabs.hideCondition": "never",
+	"terminal.integrated.mouseWheelZoom": false,
+	"terminal.integrated.localEchoStyle": "dim",
+	"terminal.integrated.minimumContrastRatio": 1,
+	"workbench.preferredHighContrastColorTheme": "Monokai",
+	"workbench.preferredDarkColorTheme": "Monokai",
+	"workbench.preferredLightColorTheme": "Monokai",
+	"workbench.preferredHighContrastLightColorTheme": "Monokai",
+	"workbench.colorCustomizations": {
+		"[Monokai]": {
+			"terminal.foreground": "#ffffff",
+			"terminal.ansiBlue": "#6bbcf2",
+			"terminal.ansiGreen": "#34eb64",
+			"terminal.ansiWhite": "#ffffff",
+			"terminal.ansiBrightMagenta": "#f5ef4b",
+			"editor.foreground": "#ffffff",
+		}
+	},
+	"editor.fontFamily": "Consolas",
+	"editor.fontWeight": "300",
+	"terminal.integrated.fontWeight": "normal",
+	"terminal.integrated.fontWeightBold": "1",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"search.followSymlinks": false,
+	"extensions.autoUpdate": false,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.defaultProfile.linux": "sh",
+	"terminal.integrated.localEchoLatencyThreshold": -1,
+	"terminal.integrated.gpuAcceleration": "on",
+	"workbench.editor.enablePreview": false,
+	"editor.unicodeHighlight.includeStrings": false,
+	"terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+	"git.enabled": false,
+	"remote.autoForwardPortsSource": "hybrid",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"jupyter.interactiveWindow.creationMode": "perFile",
+	"terminal.integrated.lineHeight": 1.2,
+	"notebook.output.textLineLimit": 1500,
+	"editor.tokenColorCustomizations": {
+	
+	  },
+	"editor.semanticTokenColorCustomizations": {
+		"enabled": true,
+	},
+	"editor.quickSuggestionsDelay": 0,
+	"python.analysis.autoFormatStrings": true,
+	"python.analysis.autoImportCompletions": true,
+	"editor.quickSuggestions": {
+		"comments": "on",
+		"strings": "on"
+	},
+	"interactiveWindow.executeWithShiftEnter": true,
+	"editor.lineHeight": 1.5,
+	"jupyter.askForKernelRestart": false,
+	"jupyter.jupyterCommandLineArguments": [
+		
+	],
+	"notebook.lineNumbers": "on",
+	"Codegeex.Privacy": true,
+	"Codegeex.License": "",
+	"editor.suggest.matchOnWordStartOnly": false,
+	"editor.snippetSuggestions": "top",
+	"python.analysis.completeFunctionParens": true,
+	"editor.showUnused": true,
+	"python.languageServer": "Jedi",
+	"[cpp]": {
+		
+	},
+	"editor.codeActionsOnSave": {
+	
+	
+	
+		
+	},
+	"editor.indentSize": "tabSize",
+	"explorer.confirmDragAndDrop": false,
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"editor.largeFileOptimizations": false,
+	"workbench.editorAssociations": {
+	  "*.pdf": "default"
+	},
+	"Codegeex.EnableExtension": true,
+	"workbench.colorTheme": "Monokai",
+	"workbench.settings.applyToAllProfiles": [
+	  
+	],
+	"editor.fontSize": 16,
+	"workbench.productIconTheme": "material-product-icons"
+  
+  }
