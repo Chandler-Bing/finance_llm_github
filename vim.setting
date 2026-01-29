@@ -1,0 +1,19 @@
+set nocompatible
+syntax on
+filetype plugin indent on
+set ic
+set hlsearch
+set encoding=utf-8
+set fileencodings=utf-8,ucs-bom,GB2312,big5
+set autoindent
+set smartindent
+set nu
+set tabstop=4
+set expandtab
+
+:nnoremap z <c-w>
+:nnoremap vv <c-v>
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+endif
